@@ -422,6 +422,14 @@ footer {
     .project_img{
         float: none;
     }
+
+    .quote{
+        margin-bottom: 30px;
+    }
+
+    .shirley{
+        margin-top: -20px;
+    }
 }
 
 @media (min-width: 500px) and (max-width:768px) {
@@ -437,15 +445,14 @@ footer {
     .milestone {
         margin-bottom: 30px;
     }
-}
 
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    .lg {
-        color: red;
-        font-weight: bold;
+    .quote{
+        margin-bottom: 30px;
     }
 
+    .shirley{
+        margin-top: -20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -459,4 +466,13 @@ footer {
     .milestone{
         margin-top: 0px;
     }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .lg {
+        color: red;
+        font-weight: bold;
+    }
+
 }
