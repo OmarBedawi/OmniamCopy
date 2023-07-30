@@ -83,7 +83,7 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 /*--------------------------------------------Heading*/
@@ -372,27 +372,20 @@ footer {
 
 /*--------------------------------------------Portfolio section*/
 
-.portfolio-heading{
-    font-family: "Exo",sans-serif;
-    font-weight: 500;
-    margin-top: 25px;
+
+
+
+.portfolio_niches{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.niches_li{
+    margin-top: 20px;
     margin-bottom: 20px;
-    color: #fafafa;
 }
 
 
-.portfolio-section{
-    margin-top: 90px;
-}
-
-.project_img{
-    float: left;
-    border: 1px black solid;
-    width: 140px;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 50px;
-}
 
 /*--------------------------------------------Media Queries*/
 
