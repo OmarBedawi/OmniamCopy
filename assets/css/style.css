@@ -380,12 +380,27 @@ footer {
     margin-bottom: 30px;
 }
 
-.niches_li{
+.niches_li h3{
     margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/*--------------------------------------------production section*/
+
+.production_text h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.space_text{
     margin-bottom: 20px;
 }
 
-
+.production_title{
+    color: red;
+}
 
 /*--------------------------------------------Media Queries*/
 
