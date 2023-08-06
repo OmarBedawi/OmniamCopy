@@ -1,140 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>OmniamCopy</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> type="text/css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/6.3.0/css/font-awesome.min.css" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-        <script src="https://kit.fontawesome.com/2603fccd2e.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <!--I built header and nav following a guided video found on youtube.com (https://youtu.be/gt8zOLQ8A0w).
-            I liked this tutorials because was showing in a simple way how to build a responsive toggle menu that appear only for smaller screens-->
-        <header>
-            <a href="index.html">
-                <div class="logo"><i>OmniamCopy</i></div>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="menu.html">Why Us</a></li>
-                    <li><a href="ourstory.html">About Us</a></li>
-                    <li>
-                        <a href="orderonline.html">
-                            <div class="btn btn-success">
-                                <h5>contact us</h5>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
-            </div>
-        </header>
-
-        <div class="top-pic mt-0 pt-0">
-            <img src="assets/images/homepage.JPG" alt="index top-pic" class="w-100 img-fluid">
-        </div>
-
-        
-        <!--I have coded the carousel with the help of this tutorial (https://www.youtube.com/watch?v=VYsVOamdB0g)
-        <div class="carousel">
-            
-            <div class="carousel__track-container">
-                <ul class="carousel__track">
-                    <li class="carousel__slide current-slide"><img class="carousel__image" src="assets/images/homepage.JPG" alt="slide1"></li>
-                    <li class="carousel__slide"><img class="carousel__image" src="assets/images/slides/homepage.JPG" alt="slide2"></li>
-                    <li class="carousel__slide"><img class="carousel__image" src="assets/images/slides/homepage.JPG" alt="slide3"></li>
-                </ul>
-            </div>
-            
-            <div class="carousel__nav">
-                <button class="carousel__indicator current-slide"></button>
-                <button class="carousel__indicator"></button>
-                <button class="carousel__indicator"></button>
-            </div>
-        </div>-->
-        <!--In this <div> is displayed the name of the Pizzeria-->
-        <div class="names">
-            <div class="name1">
-                <h2>Omniam Copy</h2>
-            </div>
-            <div class="name2">
-                <h3>is here to help businesses to increase their audience and improve the communication in the newsletter</h3>
-            </div>
-        </div>
-        <!--A set of 3 cards with the prizes awarded by the Pizzeria
-        <div class="prize">
-            <img src="https://www.luxuryrestaurantawards.com/wp-content/uploads/sites/9/2020/01/World-Luxury-Restaurant-Awards-Logo-Black-Text-Transparent-1.png"
-                alt="prize 1">
-        </div>
-        <div class="prize">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrsrT6INf4wfiPAEi7SRSCnjbx25hUhbqj9Q&usqp=CAU"
-                alt="prize 2">
-        </div>
-        <div class="prize">
-            <img src="https://www.passion-restaurant.com/wp-content/uploads/2019/04/ExcellentServiceAward2018-Web.png"
-                alt="prize 3">
-        </div>-->
-        <!--I create a map using Google Maps Platform. I have obtained an API key to apply in the <script> at the bottom of this page. 
-            I set a random location in the city of Milan
-        <div class="mapTitle">
-            <h1>this is our location</h1>
-        </div>
-        <div id="map"></div>-->
-        <!--I built a very simple footer. 
-            I just took example from the repos did during the course and placed the most popular social-network icons-->     
-        <footer>
-            <ul class="socialnet">
-                <li>
-                    <a target="_blank" href="https://www.facebook.com/">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span></a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.twitter.com">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span></a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.youtube.com">
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span></a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.instagram.com">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span></a>
-                </li>
-            </ul>
-        </footer>
-        <!--The jQuery library links and the js files are placed at the end of the document to be loaded for last-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!--The jQuery link of the toggle menu and its function below-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.menu-toggle').click(function(){
-                    $('nav').toggleClass('active')
-            })
-            })
-        </script>
-        <!--Google Maps Platform link and below the API key -->
-        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmklKbC_gdWjWuRWThDoG4zj_Wu2-fuT0&callback=initMap"></script>
-        <!--Javascript file sources for carousel and map-->
-        <script src="assets/js/carousel.js"></script>
-        <script src="assets/js/maps.js"></script>
-    </body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -154,7 +19,7 @@
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
                         <h1 class="name">Omniam </h1>
-                        <h2 class="title"> Copywriting</h2>
+                        <h2 class="title">Copywriting</h2>
                     </div>
                 </div>
                 <div class="row no-gutters">
@@ -178,15 +43,121 @@
             </div>
         </div>
     </header>
-    
-    
-    
-
-
-
-
-
-    
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 bg-color-personal-info section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">
+                            Info
+                        </h3>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Name:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Omniam
+                        </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Hometowns:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Amsterdam, Netherlands
+                        </p>
+                        <p>
+                            Milan, Italy
+                        </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Phone:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            <a href="https://wa.me/+31625427917" target="_blank"><i class="fab fa-whatsapp text-success"></i> +31 625427917</a>
+                        </p>
+                        <p>
+                            <a href="https://wa.me/+393924825690" target="_blank"><i class="fab fa-whatsapp text-success"></i> +39 3924825690</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Email:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            <a href="mailto:copy@omniam.net">copy@omniam.net</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 bg-color-three-reasons section-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">About Omniam</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fas fa-user" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Who we are</h4>
+                                <p>
+                                    We are an enthusiastic and skilled group with a passion for writing. We care about helping businesses who are solving hard problems, and that is the reason why we do copywriting.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">What we do</h4>
+                                <p>
+                                    We offer a range of valuable services that can help businesses and organizations achieve their marketing goals. We create content for various platforms to be able to maintain a consistent brand voice across all the marketing channels (e-mails, social media, websites etc).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Why work with us?</h4>
+                                <p>
+                                    Working with a copywriter can help you create more effective marketing materials, save time, and improve your overall branding and messaging.<br> Whether you need help with website copy, advertising copy, or social media content, a copywriter can provide the skills and the expertise you need to succeed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4 quote">
