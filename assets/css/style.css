@@ -402,6 +402,17 @@ footer {
     color: red;
 }
 
+.cannabis_subt{
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.bold_text{
+    font-weight: 500;
+}
+
+
+
 /*--------------------------------------------Media Queries*/
 
 @media (max-width: 500px) {
