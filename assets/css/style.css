@@ -391,7 +391,7 @@ footer {
 .production_text h5{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .space_text{
@@ -416,60 +416,52 @@ footer {
 /*--------------------------------------------Media Queries*/
 
 @media (max-width: 500px) {
-    .xs {
+    .xxs {
         color: red;
         font-weight: bold;
     }
-    .projects {
-        margin-left: 0px;
-        margin-top: 25px;
-    }
-
-    .milestone {
-        margin-bottom: 30px;
-    }
-
-    .portfolio-section{
-        margin-top: 20px;
-    }
-
-    .project_title{
-        float: left;
-        margin-bottom: 30px;
-    }
-
-    .project_img{
-        float: none;
+    
+    .mobile-position{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .quote{
         margin-bottom: 30px;
     }
 
-    .shirley{
+    .quote_author{
         margin-top: -20px;
     }
 }
 
+@media (min-width: 500px) and (max-width:575px) {
+    .xs {
+        color: red;
+        font-weight: bold;
+    }
+    .mobile-position{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
 @media (min-width: 500px) and (max-width:768px) {
     .sm {
         color: red;
         font-weight: bold;
     }
-    .projects {
-        margin-left: 0px;
-        margin-top: 25px;
-    }
-
-    .milestone {
-        margin-bottom: 30px;
+    
+    .mobile-position{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .quote{
         margin-bottom: 30px;
     }
 
-    .shirley{
+    .quote_author{
         margin-top: -20px;
     }
 }
