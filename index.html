@@ -26,7 +26,7 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-bottom text-dark"><i class="fa fa-home text-dark" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
                                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span><br><p>(Page coming soon)</p></a>
@@ -120,8 +120,54 @@
                             <div class="col-2">
                                 <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">What we do</h4>
+                            <div class="col-10 hover_option"><!--
+                                <button type="button" class="btn btn-danger set_button">
+                                    <h4 class="three-reasons-heading uppercase">What we do</h4>
+                                </button>-->
+
+                                <div class="container">
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                                      <h4 class="three-reasons-heading uppercase">What we do</h4>
+                                    </button>
+                                  
+                                    <!-- The Modal -->
+                                    <div class="modal" id="myModal">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        
+                                          <!-- Modal Header -->
+                                          <div class="modal-header">
+                                            <h4 class="modal-title">Omniam Services</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          </div>
+                                          
+                                          <!-- Modal body -->
+                                          <div class="modal-body">
+                                            <ul>
+                                                <li>Blogs</li>
+                                                <li>Content writing</li>
+                                                <li>Direct-response Copywriting</li>
+                                                <li>Email Copywriting</li>
+                                                <li>Facebook ad Copywriting</li>                                               
+                                                <li>Landing Page</li>
+                                                <li>Optin Page</li>
+                                                <li>SEO Copywriting</li>
+                                                <li>Sales page copy</li>                                                
+                                            </ul>
+                                          </div>
+                                          
+                                          <!-- Modal footer -->
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+
                                 <p>
                                     We write it.<br>
                                     So, you don't have to think about it.
@@ -137,8 +183,10 @@
                             <div class="col-2">
                                 <i class="three-reasons-icon fa fa-flask" aria-hidden="true"></i>
                             </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">How we do it</h4>
+                            <div class="col-10 hover_option">
+                                <button type="button" class="btn btn-danger set_button">
+                                    <h4 class="three-reasons-heading uppercase">How we do it</h4>
+                                </button>
                                 <p>
                                     We will use the miniskirt writing style, which is lengthy enough to cover the topic but short enough to be intriguing
                                 </p>
@@ -150,8 +198,10 @@
                             <div class="col-2">
                                 <i class="three-reasons-icon fas fa-user" aria-hidden="true"></i>
                             </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Who we are</h4>
+                            <div class="col-10 hover_option">
+                                <button type="button" class="btn btn-danger set_button">
+                                    <h4 class="three-reasons-heading uppercase">who we are</h4>
+                                </button>
                                 <p>
                                     We are writers driven by the goal of being as effective as writing can be.
                                 </p>
@@ -163,8 +213,10 @@
                             <div class="col-2">
                                 <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
                             </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Why work with us?</h4>
+                            <div class="col-10 hover_option">
+                                <button type="button" class="btn btn-danger set_button">
+                                    <h4 class="three-reasons-heading uppercase">Why work with us?</h4>
+                                </button>
                                 <p>
                                     Working with a copywriter can help you create more effective marketing materials, save time, 
                                     and improve your overall branding and messaging.<br> Whether you need help with e-mail copy, 
@@ -226,5 +278,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
