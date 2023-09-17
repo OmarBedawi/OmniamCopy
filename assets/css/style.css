@@ -382,7 +382,10 @@ footer {
 /*--------------------------------------------Portfolio section*/
 
 
-
+.portfolio_bg{
+    width: 100%;
+    height: auto;
+}
 
 .portfolio_niches{
     margin-top: 30px;
@@ -403,7 +406,7 @@ footer {
 }
 
 .resume_list {
-    margin-bottom: 130px;
+    margin-bottom: 80px;
 }
 
 
@@ -422,6 +425,16 @@ footer {
     margin-top: 15px;
     margin-left: 17px;
     margin-right: 40px;
+}
+
+.bulb{
+    
+    text-align: center;
+    margin-top: 100px;    
+}
+
+.bulb_border{
+    border: solid black 2px;
 }
 
 
@@ -472,6 +485,9 @@ footer {
     .quote_author{
         margin-top: -20px;
     }
+    .bulb{
+        display: none;     
+    }
 }
 
 @media (min-width: 500px) and (max-width:575px) {
@@ -482,6 +498,9 @@ footer {
     .mobile-position{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .bulb{
+        display: none;    
     }
     
 }
@@ -503,6 +522,9 @@ footer {
     .quote_author{
         margin-top: -20px;
     }
+    .bulb{
+        display: none;    
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -510,12 +532,13 @@ footer {
         color: red;
         font-weight: bold;
     }
-
-    
-
     .resume_list{
         margin-top: 0px;
     }
+    .bulb{
+        display: none;    
+    }
+    
 }
 
 
