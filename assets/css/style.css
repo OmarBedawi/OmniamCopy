@@ -488,10 +488,6 @@ footer {
     .bulb{
         display: none;     
     }
-    .portfolio_bg{
-        width: 100%;
-        height: auto;
-    }
 }
 
 @media (min-width: 500px) and (max-width:575px) {
@@ -505,10 +501,6 @@ footer {
     }
     .bulb{
         display: none;    
-    }
-    .portfolio_bg{
-        width: 100%;
-        height: auto;
     }
     
 }
@@ -533,10 +525,6 @@ footer {
     .bulb{
         display: none;    
     }
-    .portfolio_bg{
-        width: 100%;
-        height: auto;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -549,10 +537,6 @@ footer {
     }
     .bulb{
         display: none;    
-    }
-    .portfolio_bg{
-        width: 100%;
-        height: auto;
     }
     
 }
